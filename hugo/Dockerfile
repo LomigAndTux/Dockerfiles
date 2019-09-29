@@ -1,10 +1,9 @@
-FROM fedora:latest
+FROM lomigandtux/fedora:30
 
 MAINTAINER Lomig & Tux <lomigandtux@gmail.com>
 
 RUN dnf -y update && dnf clean all
 RUN dnf -y install hugo python-pygments && dnf clean all
-RUN useradd -ms /bin/bash lomig
 
 VOLUME /src
 VOLUME /output

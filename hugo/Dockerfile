@@ -13,4 +13,4 @@ WORKDIR /src
 
 EXPOSE 1313
 ENTRYPOINT [ "hugo" ]
-
+CMD [ "hugo" ]

@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL maintainer="lomigandtux@gmail.com"
 
-ENV HUGO_VERSION 0.58.3
+ENV HUGO_VERSION 0.88.1
 ENV HUGO_SOURCE hugo_${HUGO_VERSION}_Linux-64bit
 
 RUN apk update && apk add py-pygments && rm -rf /var/cache/apk/*

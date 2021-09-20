@@ -1,11 +1,10 @@
-FROM ubuntu:bionic
+FROM alpine:latest
 
 WORKDIR /var/local
 
 # combine into one run command to reduce image size
-RUN apt-get update && apt-get -y upgrade && apt-get -y dist-upgrade && apt-get install -y perl wget libfontconfig1 && \
-    wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh  && \
-    apt-get clean
+RUN apk --no-cache update && apk --no-cache upgrade  && apk --no-cache add perl wget fontconfig && \
+    wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh
 ENV PATH="${PATH}:/root/bin"
 RUN tlmgr install xetex
 RUN fmtutil-sys --all

@@ -1,0 +1,57 @@
+{
+  "_from": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball",
+  "_id": "french-menu@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-8nm8TyIiT+3QifyZdQWUGUn2CnGNTq1J6mRcP4hnVTwpxUnGXHVPlFbxHCmAGr/L2SIMAG3b2zT3+3cDgien1Q==",
+  "_location": "/french-menu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball",
+  "_shasum": "e37846be8e289ba89a4249cb44aacf26c9969b2a",
+  "_spec": "https://www.atom.io/api/packages/french-menu/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2021926-179-1t58llo.u693",
+  "bugs": {
+    "url": "https://github.com/lamboley/atom-french-menu/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "delay": {
+      "type": "integer",
+      "default": 0,
+      "title": "Delay",
+      "description": "Workaround for fixing the 'File' menu on the right of the menu bar. It's a delay in ms, keep increase it if the menu appear in the right of the menu bar. A value of 1250 should be good enough."
+    }
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Your favorite text and code editor is now available in French within a package !",
+  "engines": {
+    "atom": ">=1.16.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lamboley/atom-french-menu",
+  "keywords": [
+    "français",
+    "french",
+    "fr",
+    "translation",
+    "localization"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "french-menu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamboley/atom-french-menu.git"
+  },
+  "version": "1.0.0"
+}

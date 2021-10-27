@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "nord-atom-ui"
+      "one-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "03671d1f-c2cf-414c-aafc-559b727811f4"
+  gitlab:
+    privateToken: "unyYZBAQnQtSjSdfQQ3v"
+    serverUrl: "https://framagit.org"
+  welcome:
+    showOnStartup: false
